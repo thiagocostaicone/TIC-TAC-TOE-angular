@@ -1,0 +1,31 @@
+*{
+    display: block;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-gap: 0px;
+    background-color: #191E36;
+}
+
+h2, h3{
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+button{
+    cursor: pointer;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #c43e3e;
+    border-color: #ff0000;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+app-square{
+    display: inline-block;
+
+}

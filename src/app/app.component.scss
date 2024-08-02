@@ -1,0 +1,9 @@
+.all {
+    display: flex;
+    flex-direction: column; 
+    height: 100vh; 
+  }
+  
+  app-board {
+    flex: 1; /* Faz o app-board ocupar o espaço restante */
+  }
